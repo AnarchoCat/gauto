@@ -1,0 +1,7 @@
+dir soc/img
+var $N 0
+label start
+click test
+add $N 1 $N
+clear
+lt $N 5 start
